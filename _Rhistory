@@ -1,0 +1,234 @@
+1+1
+1/5
+5*45
+5^7
+cls
+8&8
+5|8
+0|-2
+r|5
+close
+no
+6%2
+65
+print("Hell")
+"HELL"
+print(paste("HELL"))
+"HELL"
+paste("HELL")
+print(paste("HELL"))
+paste(print("HELL"))
+for(i in 1:5){
+print("HELLO")
+}
+something = function(a){
+print(a)
+}
+something("HELLO")
+something("HELLO")
+help(sum)
+file(R)
+file(Arduino)
+help(plot)
+my.name <- readline(prompt="Enter name: ")
+# convert character into integer
+my.age <- as.integer(my.age)
+print(paste("Hi,", my.name, "next year you will be", my.age+1, "years old."))
+name <- readline(prompt="Enter name: ")
+# convert character into integer
+age <- as.integer(my.age)
+print(paste("Hi,", name, "next year you will be", age+1, "years old."))
+name <- readline(prompt="Enter name: ")
+# convert character into integer
+age <- as.integer(age)
+print(paste("Hi,", name, "next year you will be", age+1, "years old."))
+plot(1:5,seq(1,10,length=5),type="n",xlab="",ylab="",main="Test draw.circle")
+draw.circle(2,4,c(1,0.66,0.33),border="purple",
+col=c("#ff00ff","#ff77ff","#ffccff"),lty=1,lwd=1)
+draw.circle(2.5,8,0.6,border="red",lty=3,lwd=3)
+draw.circle(4,3,0.7,border="green",col="yellow",lty=1,
+density=5,angle=30,lwd=10)
+draw.circle(3.5,8,0.8,border="blue",lty=2,lwd=2)
+# }
+readinteger <- function()
+{
+n <- readline(prompt="Enter an integer: ")
+n <- as.integer(n)
+if (is.na(n)){
+n <- readinteger()
+}
+return(n)
+}
+print(readinteger())
+a = 5
+b = switch(a){
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+}
+b
+a = 5
+b = switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+b
+a = 5
+b = switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+print(b)
+a <- 5
+b <- switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+print(b)
+a <- 5
+b <- switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+print(paste(b))
+a <- "5"
+b <- switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+b
+a <- "5"
+b <- switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5")
+b
+a <- "5"
+switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+b
+a <- "5"
+switch(a,
+1 = "One",
+2 = "Two",
+3 = "Three",
+4 = "Four",
+5 = "Five",
+"Greater than 5"
+)
+A = 1:8
+matrix(A, nrow = 2, ncol = 4, byrow = TRUE)
+A = 1:8
+matrix(A, nrow = 2, ncol = 4, byrow = TRUE)
+A = 1:8
+matrix(A, nrow = 2, ncol = 4)
+A = 1:9
+matrix(A, nrow = 3, ncol = 3, byrow = TRUE)
+x = c(1,2,3,4,5,6,7,8,9)
+dim(x) = c(3,3,3)
+x = c(1,2,3,4,5,6,7,8)
+dim(x) = c(2,4,2)
+x = c(1,2,3,4,5,6,7,8)
+dim(x) = c(2,4)
+A = 1:9
+matrix(0, nrow = 3, ncol = 3, byrow = TRUE)
+x = c(1,2,3,4,5,6,7,8)
+dim(x) = c(2,2,2)
+x = c(1,2,3,4,5,6,7,8)
+dim(x) = c(2,2,2)
+print(x)
+A = c(1,2,3,4,5,6,7,8)
+A[2,3]
+A = c(1,2,3,4,5,6,7,8)
+matrix(A, 2, 3, byrow = TRUE)
+A[2,3]
+A = c(1,2,3,4,5,6,7,8)
+matrix(A, 1, 2, byrow = TRUE)
+A[2,3]
+A = c(1,2,3,4,5,6,7,8)
+dim(A) = c(2,4)
+A[2,3]
+x = c(1,2,3,4,5,6,7,8)
+dim(x) = c(2,2,2)
+x[1,1,1]
+x = c(1,2,3,4,5,6,7,8)
+dim(x) = c(2,2,2)
+x[1,2,1]
+library(readr)
+data <- read_csv("D:/Sem VII/DRDO Data/Data for Project - alpha.csv.csv")
+View(data)
+train = data[1:20,]
+test = data[21:30,1:14]
+install.packages("neuralnet")
+install.packages("neuralnet")
+net = neuralnet(train$BL+train$LWL+train$HWL~AF3+F7+F3+FC5+T7+P7+O1+O2+P8+T8+FC6+F4
++F8+AF4, train, hidden = 8, rep = 10, algorithm = "rprop+",
+linear.output = FALSE)
+net
+net = neuralnet(train$BL+train$LWL+train$HWL~AF3+F7+F3+FC5+T7+P7+O1+O2+P8+T8+FC6+F4+F8+AF4, train, hidden = 8, rep = 10, algorithm = "rprop+", linear.output = FALSE)
+net
+train = data[1:20,]
+test = data[21:30,1:14]
+install.packages("neuralnet")
+library(neuralnet)
+net = neuralnet(train$BL+train$LWL+train$HWL~AF3+F7+F3+FC5+T7+P7+O1+O2+P8+T8+FC6+F4+F8+AF4, train, hidden = 8, rep = 10, algorithm = "rprop+", linear.output = FALSE)
+net
+train = data[1:20,]
+test = data[21:30,1:14]
+#install.packages("neuralnet")
+library(neuralnet)
+net = neuralnet(train$BL+train$LWL+train$HWL~AF3+F7+F3+FC5+T7+P7+O1+O2+P8+T8+FC6+F4+F8+AF4, train, hidden = 8, rep = 10, algorithm = "rprop+", linear.output = FALSE)
+net
+train = data[1:20,]
+test = data[21:30,1:14]
+#install.packages("neuralnet")
+library(neuralnet)
+net = neuralnet(train$BL+train$LWL+train$HWL~AF3+F7+F3+FC5+T7+P7+O1+O2+P8+T8+FC6+F4+F8+AF4, train, hidden = 8, rep = 10, algorithm = "rprop+", linear.output = FALSE)
+net
+c = test[1:10,]
+j = compute(net, c)$net.result
+j
+plot(net)
+train = data[1:20,]
+test = data[21:30,1:14]
+#install.packages("neuralnet")
+library(neuralnet)
+net = neuralnet(train$BL+train$LWL+train$HWL~AF3+F7+F3+FC5+T7+P7+O1+O2+P8+T8+FC6+F4+F8+AF4, train, hidden = 8, rep = 10, algorithm = "rprop+", linear.output = FALSE)
+net
+c = test[1:10,]
+j = compute(net, c)$net.result
+plot(net)
+train = data[1:20,]
+test = data[21:30,1:14]
